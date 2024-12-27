@@ -1,6 +1,6 @@
 # Christmas Toy Optimization
 
-This project solves the problem of maximizing the daily profit from toy production and packaging during the Christmas season. It was developed as part of course **Análise e Síntese de Algoritmos** at **Instituto Superior Técnico (IST)*** using **Python** and the **PuLP** library for linear programming (LP). The program determines the optimal number of individual toys and special packages to produce, respecting production capacity constraints.
+This project solves the problem of maximizing the daily profit from toy production and packaging during the Christmas season. It was developed as part of course **Análise e Síntese de Algoritmos** at **Instituto Superior Técnico (IST)** using **Python** and the **PuLP** library for linear programming (LP). The program determines the optimal number of individual toys and special packages to produce, respecting production capacity constraints.
 
 ## Features
 - **Linear Programming Model**:
