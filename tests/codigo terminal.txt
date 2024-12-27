@@ -1,0 +1,9 @@
+//criar testes
+
+for i in {500..5000..500}; do
+    num_toys=$((3 * i))
+    ./gen_ubiquity $num_toys $i 1 100 100 100 > "test_$i.in"
+done
+
+//correr
+for file in test_*.in; do echo "-----------------------"; echo $file; time python3 projeto.py < $file; done
